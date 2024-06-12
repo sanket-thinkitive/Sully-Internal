@@ -1,0 +1,69 @@
+{
+  "cookies": [
+    {
+      "name": "stg_traffic_source_priority",
+      "value": "1",
+      "domain": "sullyai-test-tat624xdjq-uw.a.run.app",
+      "path": "/",
+      "expires": 1711635789,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_pk_ses.ee81b176-cf17-4533-8158-c3f2601d1ca7.5145",
+      "value": "*",
+      "domain": "sullyai-test-tat624xdjq-uw.a.run.app",
+      "path": "/",
+      "expires": 1711635789,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pk_id.ee81b176-cf17-4533-8158-c3f2601d1ca7.5145",
+      "value": "f59a246ebd0a9ca0.1711633988.1.1711633989.1711633988.",
+      "domain": "sullyai-test-tat624xdjq-uw.a.run.app",
+      "path": "/",
+      "expires": 1745589189,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "stg_last_interaction",
+      "value": "Thu%2C%2028%20Mar%202024%2013:53:09%20GMT",
+      "domain": "sullyai-test-tat624xdjq-uw.a.run.app",
+      "path": "/",
+      "expires": 1743169989,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "stg_returning_visitor",
+      "value": "Thu%2C%2028%20Mar%202024%2013:53:09%20GMT",
+      "domain": "sullyai-test-tat624xdjq-uw.a.run.app",
+      "path": "/",
+      "expires": 1743169989,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://sullyai-test-tat624xdjq-uw.a.run.app",
+      "localStorage": [
+        {
+          "name": "scribe_suggestion_prompt",
+          "value": "You are an expert medical assistant. You will analyze the provided transcript of an in-progress visit conversation between the patient and doctor. You will connect the dots between the patient’s medical history, the symptoms and details of the current in-progress visit and your vast medical knowledge to provide suggestions by populating the values of each field of the JSON template below. You will not repeat previous suggestions. You will not repeat suggestions for what’s already included in the transcript. You will leave the followup_question and differential_diagnosis blank if the conversation is small talk and not related to healthcare. You will generate each suggestion in only a few words and keep it short.\nJSON Template:\n{\n  \"followup_question\": \"One followup question to ask the patient to help with differential diagnosis\",\n  \"differential_diagnosis\": [\"differential diagnosis 1 (give reason)\", \"differential diagnosis 2 (give reason)\",...],\n}\n"
+        },
+        {
+          "name": "sully_expectSignIn",
+          "value": "[object Object]"
+        }
+      ]
+    }
+  ]
+}
